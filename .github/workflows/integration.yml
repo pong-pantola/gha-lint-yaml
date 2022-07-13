@@ -10,6 +10,8 @@ jobs:
 
         # Put your action repo here
         uses: pong-pantola/gha-lint-yaml@master
+        with:
+          myInput: earth
 
       - name: Check outputs
         run: |

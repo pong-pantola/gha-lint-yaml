@@ -9,7 +9,7 @@ jobs:
       - name: Self test
         id: selftest
 
-        # Put your action repo here 
+        # Put your action repo here  
         uses: pong-pantola/gha-lint-yaml@feature/test
         with:
           myInput: earth
